@@ -11,7 +11,8 @@ export default function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="App-footer">Coded by Natalie Hood</footer>
+      <footer className="App-footer">
+       Coded by Natalie Hood</footer>
     </div>
   );
 }
