@@ -1,6 +1,5 @@
-import Dictionary from "./Dictionary.js"
+import Dictionary from "./Dictionary.js";
 import "./App.css";
-
 
 export default function App() {
   return (
@@ -34,4 +33,3 @@ export default function App() {
     </div>
   );
 }
-

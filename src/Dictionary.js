@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import axios from "axios"; 
+import axios from "axios";
 
 import Results from "./Results.js";
 import "./Dictionary.css";
 import Photos from "./Photos.js";
 
-
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
-  let [results, setResults] = useState (null);
-    let [loaded, setLoaded] = useState(false);
+  let [results, setResults] = useState(null);
+  let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
 
   function handleDictionaryResponse(response) {
@@ -17,9 +16,8 @@ export default function Dictionary(props) {
   }
 
   function handlePexelsResponse(response) {
-  setPhotos(response.data.photos);
-}
-
+    setPhotos(response.data.photos);
+  }
 
   function search() {
     // documentation: https://dictionaryapi.dev/
@@ -35,52 +33,45 @@ export default function Dictionary(props) {
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
 
-function handleSubmit(event) {
-  event.preventDefault();
-  search();
-}
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
+  }
 
-function handleKeywordChange(event) {
-  setKeyword(event.target.value);
-}
+  function handleKeywordChange(event) {
+    setKeyword(event.target.value);
+  }
 
-function load() {
-  setLoaded(true);
-  search();
-}
+  function load() {
+    setLoaded(true);
+    search();
+  }
 
+  if (loaded) {
+    return (
+      <div className="Dictionary">
+        <h1 className="Dictionary-header">Dictionary</h1>
+        <section>
+          <form onSubmit={handleSubmit}>
+            <div>
+              <span className="fa fa-search form-control-search"></span>
+              <input
+                type="text"
+                onChange={handleKeywordChange}
+                className="form-control"
+                placeholder="Search for a word here"
+                defaultValue="Canada"
+              />
+            </div>
+          </form>
+        </section>
 
-if (loaded) {
-  return (
-    <div className="Dictionary">
-      <h1 className="Dictionary-header">Dictionary</h1>
-      <section>
-        <form onSubmit={handleSubmit}>
-        <div>
-          <span className="fa fa-search form-control-search"></span>
-          <input
-            type="text"
-            onChange={handleKeywordChange}
-            className="form-control"
-            placeholder="Search for a word here"
-/>
-      </div>
-     
-        
-        
-            
-        </form>
-      </section>
-  
-      
-      
-      <Results results={results} />
+        <Results results={results} />
         <Photos photos={photos} />
-  </div> 
-
-  );
-} else {
-  load();
-  return "Loading";
-}
+      </div>
+    );
+  } else {
+    load();
+    return "Loading";
+  }
 }

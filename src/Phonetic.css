@@ -1,25 +1,25 @@
 .Phonetic .fa-volume-up {
-  margin-top: -5px;
-  background: #977d97;
-  border: 1px solid #977d97;
-  color: white;
+  background: black;
+  border: 1px solid white;
   border-radius: 50px;
+  color: white;
   font-size: 18px;
+  margin-top: -5px;
   padding: 10px;
 }
 
 .Phonetic .fa-volume-up:hover {
-  color: #977d97;
   background: white;
-  border: 1px solid #977d97;
+  border: 1px solid black;
+  color: black;
   cursor: pointer;
 }
 
 .Phonetic .text {
-  color: #505050;
-  padding-left: 15px;
+  color: rgba(0, 0, 0, 0.562);
   font-size: 18px;
   font-weight: 300;
+  padding-left: 15px;
 }
 
 .Phonetic {

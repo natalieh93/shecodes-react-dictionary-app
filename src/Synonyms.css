@@ -1,17 +1,16 @@
 .Synonyms li {
-  display: inline-block;
-
+  background: #586b9c;
   border-radius: 20px;
-  background: #977d97;
   color: white;
+  display: inline-block;
+  font-size: 15px;
   font-weight: 200;
   padding: 5px 10px;
   margin: 0 10px 10px 0;
-  font-size: 15px;
 }
 
 .Synonyms ul {
+  font-size: 15px;
   margin: 5px 0 0 0;
   padding-left: 20px;
-  font-size: 15px;
 }
