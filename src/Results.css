@@ -17,3 +17,20 @@
 .Results {
   padding: 10px 10px;
 }
+
+@media (max-width: 800px) {
+  .Results {
+    padding: 20px 20px;
+  }
+
+  .Results h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .phonetic-result {
+    position: relative;
+    top: 27px;
+  }
+}

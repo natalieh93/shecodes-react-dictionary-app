@@ -11,7 +11,7 @@ export default function Phonetic(props) {
       <span className="sound">
         <i className="fas fa-volume-up" onClick={playSound}></i>
       </span>
-      <span className="text">[ {props.phonetic.text} ]</span>
+      <span className="text"> {props.phonetic.text} </span>
     </div>
   );
 }

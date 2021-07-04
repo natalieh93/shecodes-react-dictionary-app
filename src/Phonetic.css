@@ -25,3 +25,21 @@
 .Phonetic {
   margin: -6px 5px 20px 1px;
 }
+
+@media (max-width: 800px) {
+  .Phonetic .fa-volume-up {
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 39px;
+    margin-left: -5px;
+  }
+
+  .Phonetic .text {
+    font-size: 15px;
+    margin-left: -8px;
+  }
+
+  .Phonetic {
+    margin: -20px 2px 0px 0px;
+  }
+}

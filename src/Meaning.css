@@ -32,3 +32,19 @@
   padding: 0px 30px 10px;
   margin-bottom: -50px;
 }
+
+@media (max-width: 800px) {
+  .Meaning {
+    padding: 0px 22px 10px;
+    margin-bottom: -50px;
+    margin-top: -57px;
+  }
+
+  .Meaning h3 {
+    font-size: 22px;
+  }
+
+  .Meaning .definition {
+    font-size: 16px;
+  }
+}
