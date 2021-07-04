@@ -1,25 +1,25 @@
 .Phonetic .fa-volume-up {
-  background: black;
   border: 1px solid white;
   border-radius: 50px;
-  color: white;
+  color: #ffffff;
   font-size: 18px;
-  margin-top: -5px;
+  margin-top: -2px;
   padding: 10px;
 }
 
 .Phonetic .fa-volume-up:hover {
   background: white;
-  border: 1px solid black;
-  color: black;
+  color: #2f2f50de;
   cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .Phonetic .text {
-  color: rgba(0, 0, 0, 0.562);
+  color: white;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 200;
   padding-left: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 .Phonetic {

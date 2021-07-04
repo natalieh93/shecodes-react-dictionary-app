@@ -1,9 +1,19 @@
 .Results h2 {
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  font-weight: 600;
+  color: #d8d8d8a2;
+  float: left;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 700;
   line-height: 1.5;
-  margin-top: 35px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.phonetic-result {
+  position: relative;
+  top: 45px;
+  left: 30px;
+}
+
+.Results {
+  padding: 10px 10px;
 }

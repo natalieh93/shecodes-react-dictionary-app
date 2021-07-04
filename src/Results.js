@@ -7,15 +7,15 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h2 className>{props.results.word}</h2>
-        {props.results.phonetics.map(function (phonetic, index) {
+       <div className="word-phonetic"> <h2>{props.results.word}</h2>
+       <span className="phonetic-result">{props.results.phonetics.map(function (phonetic, index) {
           return (
             <div key={index}>
               {" "}
               <Phonetic phonetic={phonetic} />{" "}
             </div>
           );
-        })}
+        })}</span></div>
 
         {props.results.meanings.map(function (meaning, index) {
           return (
@@ -25,6 +25,7 @@ export default function Results(props) {
           );
         })}
       </div>
+      
     );
   } else {
     return null;

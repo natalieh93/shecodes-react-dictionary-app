@@ -1,45 +1,43 @@
 h1 {
-  font-size: 40px;
+  color: #d8d8d8a2;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
-  margin-top: 0px;
-  font-family: "Times New Roman", Times, serif;
-  color: black;
+}
+
+h6 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+
+  font-weight: 300;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .Dictionary form {
-  width: 50%;
   margin: 15px auto;
+  width: 50%;
 }
 
 .Dictionary .form-control {
   border: 1px solid rgb(184, 184, 184);
-  box-shadow: 2px 2px 2px 0px black;
   border-radius: 50px;
-  font-weight: 200;
+  box-shadow: 2px 2px 2px 0px black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   line-height: 35px;
   padding-left: 55px;
 }
 
 .Dictionary .form-control-search {
-  position: absolute;
   display: block;
-  width: 2.375rem;
-  height: 4.375rem;
-  padding-left: 20px;
-  line-height: 3rem;
-  text-align: center;
-  pointer-events: none;
   color: #414141;
-}
-
-.photographer-credit,
-.unsplash-link {
-  text-decoration: none;
-  color: black;
-}
-
-.photographer-credit:hover,
-.unsplash-link:hover {
-  color: black;
+  height: 4.375rem;
+  line-height: 3rem;
+  padding-left: 20px;
+  position: absolute;
+  text-align: center;
+  width: 2.375rem;
 }
