@@ -50,6 +50,8 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
+        <div className="Dictionary-background-top">
+     
         <h1 className="Dictionary-header">DICTIONARY</h1>
         <h6>What word would you like to look up?</h6>
         <section>
@@ -66,6 +68,8 @@ export default function Dictionary(props) {
             </div>
           </form>
         </section>
+        </div>
+
 
         <Results results={results} />
         <Photos photos={photos} />

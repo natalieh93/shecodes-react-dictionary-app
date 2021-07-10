@@ -1,21 +1,17 @@
-.Results h2 {
-  color: #d8d8d8a2;
-  float: left;
-  font-family: "Playfair Display", serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.5;
-  margin-top: 30px;
-}
-
-.phonetic-result {
-  position: relative;
-  top: 45px;
-  left: 30px;
-}
-
 .Results {
-  padding: 10px 20px;
+  padding: 0px 100px 30px;
+  margin-top: -10px;
+}
+
+.Results h2 {
+  color: black;
+  float: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 40px;
+  padding-right: 40px;
 }
 
 @media (max-width: 800px) {
@@ -27,10 +23,5 @@
     font-size: 25px;
     margin-top: 20px;
     margin-left: 5px;
-  }
-
-  .phonetic-result {
-    position: relative;
-    top: 27px;
   }
 }

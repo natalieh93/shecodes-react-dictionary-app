@@ -4,7 +4,7 @@ import "./Synonyms.css";
 export default function Synonyms(props) {
   if (props.synonyms) {
     return (
-      <div className="Synonyms"><h7 className="Synonyms-header">Synonyms:</h7><br/> {""} 
+      <div className="Synonyms"><h7 className="Synonyms-header">Synonyms:</h7> {""}  
         {props.synonyms.map(function (synonym, index) {
           return <li key={index}>{synonym} </li>;
         })}

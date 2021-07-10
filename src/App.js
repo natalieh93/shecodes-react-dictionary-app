@@ -1,5 +1,6 @@
 import Dictionary from "./Dictionary.js";
 import "./App.css";
+import logo from "./logo.svg";
 
 export default function App() {
   return (
@@ -7,7 +8,8 @@ export default function App() {
       <main>
         <Dictionary defaultKeyword="Canada" />
       </main>
-      <footer className="App-footer">
+         <footer className="App-footer">
+        <img src={logo} className="React-logo" alt="logo" />
         <span>
           This project was coded by{" "}
           <a
@@ -20,7 +22,7 @@ export default function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/natalieh93/shecodes-react-dictionary-app"
+            href="https://github.com/natalieh93/shecodes-react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
             className="github-link"

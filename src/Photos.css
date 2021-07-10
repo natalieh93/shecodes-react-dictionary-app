@@ -1,13 +1,11 @@
 .Photos img {
-  border: 2px solid white;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 3px 3px 10px rgb(90, 89, 89);
   margin-top: 100px;
   margin-bottom: -80px;
 }
 
 .Photos {
-  margin-top: -35px;
-  padding: 10px 11px;
+  padding: 0px 90px;
 }
 
 @media (max-width: 800px) {
