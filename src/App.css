@@ -54,8 +54,8 @@
 
 @media (max-width: 800px) {
   .App {
-    margin: 0px auto;
-    padding: 60px 15px;
+    margin: 0 auto;
+    padding: 0 auto;
   }
 
   .App-footer {

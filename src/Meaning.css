@@ -6,7 +6,7 @@
 }
 
 .Meaning h3 {
-  color: #1c4d8693;
+  color: #2a2a2a93;
   font-size: 20px;
   font-style: italic;
   font-weight: 500;
@@ -19,14 +19,14 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
-  margin: 20px 0 2px;
+  margin: 20px 0 0;
 }
 
 .Meaning .example {
   color: black;
   font-style: italic;
   font-weight: 400;
-  margin: 15px 0 30px;
+  margin: 20px 0 30px;
 }
 
 .Meaning .example::first-letter {
