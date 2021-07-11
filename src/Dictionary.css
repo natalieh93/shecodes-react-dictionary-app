@@ -21,7 +21,8 @@ h6 {
 
 .Dictionary .form-control {
   border: 1px solid rgb(56, 56, 56);
-  box-shadow: 3px 3px 3px 2px rgb(56, 56, 56);
+  border-radius: 0;
+  box-shadow: 3px 7px 10px rgb(138, 138, 138);
   font-size: 16px;
   font-weight: 300;
   line-height: 36px;
