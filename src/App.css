@@ -4,20 +4,23 @@
   display: block;
   font-family: "Poppins", sans-serif;
   margin: 30px auto;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 55px 30px;
 }
 
 .App-footer {
   font-size: 14px;
   font-weight: 200;
-  margin-top: 90px;
-  margin-bottom: -20px;
+  margin: 120px 0 -20px;
   text-align: center;
 }
 
 .React-logo {
   height: 30px;
+}
+
+.Swap-button {
+  height: 14px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,12 +38,17 @@
   }
 }
 
-a {
+.linkedin-link,
+.github-link,
+.weather-app-link {
   color: black;
+  font-weight: 300;
   text-decoration: none;
 }
 
-a:hover {
+.linkedin-link:hover,
+.github-link:hover,
+.weather-app-link:hover {
   color: black;
 }
 

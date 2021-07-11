@@ -1,22 +1,28 @@
-.Synonyms li {
-  color: #777676;
-  display: inline-block;
-  font-size: 14px;
-  padding-right: 16px;
-  font-weight: 200;
-}
-
-.Synonyms ul {
-  padding: 0;
-  margin: 0;
+.Synonyms {
+  line-height: 30px;
+  margin: -5px 0 40px;
 }
 
 .Synonyms .Synonyms-header {
-  color: black;
+  color: #000000c2;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.Synonyms ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Synonyms li {
+  color: #0000009d;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+  padding-right: 23px;
 }
 
 @media (max-width: 800px) {

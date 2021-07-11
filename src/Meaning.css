@@ -1,12 +1,13 @@
 .Meaning {
+  background-color: #ffffff98;
   box-shadow: 2px 4px 25px rgb(93 93 110 /10%);
-  margin: 100px 0 -90px;
-  padding: 20px 40px;
+  margin: 100px 0 -80px;
+  padding: 20px 50px;
 }
 
 .Meaning h3 {
-  color: rgb(85, 85, 85);
-  font-size: 22px;
+  color: #1c4d8693;
+  font-size: 20px;
   font-style: italic;
   font-weight: 500;
   margin-top: 5px;
@@ -17,15 +18,15 @@
   color: black;
   font-size: 16px;
   font-weight: 300;
-  margin-top: 20px;
-  margin-bottom: 2px;
+  line-height: 26px;
+  margin: 20px 0 2px;
 }
 
 .Meaning .example {
-  color: #000000;
+  color: black;
   font-style: italic;
-  font-weight: 200;
-  margin: 16px 0 30px;
+  font-weight: 300;
+  margin: 15px 0 30px;
 }
 
 .Meaning .example::first-letter {

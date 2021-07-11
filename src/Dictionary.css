@@ -1,40 +1,40 @@
 h1 {
-  font-size: 49px;
+  color: #1c4d8693;
+  font-size: 50px;
   font-weight: 600;
   letter-spacing: 0px;
+  margin: 10px 0 20px;
   text-align: center;
-  color: black;
-  margin-bottom: 20px;
 }
 
 h6 {
   color: black;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   text-align: center;
 }
 
 .Dictionary form {
   margin: 15px auto;
-  width: 37%;
+  width: 33%;
 }
 
 .Dictionary .form-control {
   border: 1px solid rgb(56, 56, 56);
-  border-radius: 25px;
   box-shadow: 3px 3px 3px 2px rgb(56, 56, 56);
+  font-size: 16px;
   font-weight: 300;
-  margin-top: 15px;
   line-height: 36px;
-  padding-left: 60px;
+  margin-top: 20px;
+  padding-left: 55px;
 }
 
 .Dictionary .form-control-search {
-  display: block;
   color: #414141;
+  display: block;
   height: 4.375rem;
-  line-height: 3.4rem;
-  padding-left: 25px;
+  line-height: 50px;
+  padding-left: 20px;
   position: absolute;
   text-align: center;
   width: 2.375rem;
