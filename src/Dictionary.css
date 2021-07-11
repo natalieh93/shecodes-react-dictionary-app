@@ -43,16 +43,24 @@ h6 {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 49px;
+    font-size: 40px;
   }
 
   h6 {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 15px;
   }
 
   .Dictionary form {
     margin: 15px auto;
-    width: 82%;
+    width: 76%;
+  }
+
+  .Dictionary .form-control-search {
+    font-size: 15px;
+  }
+
+  .Dictionary .form-control {
+    font-size: 15px;
   }
 }
