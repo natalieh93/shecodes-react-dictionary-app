@@ -9,14 +9,14 @@ h1 {
 
 h6 {
   color: black;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300;
   text-align: center;
 }
 
 .Dictionary form {
   margin: 15px auto;
-  width: 33%;
+  width: 31%;
 }
 
 .Dictionary .form-control {
@@ -43,7 +43,7 @@ h6 {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 40px;
+    font-size: 46px;
   }
 
   h6 {
