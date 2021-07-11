@@ -20,7 +20,7 @@ h6 {
 }
 
 .Dictionary .form-control {
-  border: 1px solid rgb(56, 56, 56);
+  border: 1px solid rgb(144, 144, 144);
   border-radius: 0;
   box-shadow: 3px 7px 10px rgb(138, 138, 138);
   font-size: 16px;
@@ -43,7 +43,7 @@ h6 {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 45px;
+    font-size: 49px;
   }
 
   h6 {
@@ -53,6 +53,6 @@ h6 {
 
   .Dictionary form {
     margin: 15px auto;
-    width: 80%;
+    width: 82%;
   }
 }

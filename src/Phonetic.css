@@ -22,16 +22,16 @@
 }
 
 @media (max-width: 800px) {
+  .Phonetic {
+    margin: 50px 2px -35px 0px;
+  }
+
   .Phonetic .fa-volume-up {
     font-size: 14px;
   }
 
   .Phonetic .text {
-    font-size: 15px;
-    margin-left: -8px;
-  }
-
-  .Phonetic {
-    margin: -20px 2px 0px 0px;
+    font-size: 16px;
+    margin-left: 15px;
   }
 }

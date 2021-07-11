@@ -31,7 +31,7 @@ export default function App() {
             Natalie Hood{" "}
           </a>
         </span>
-        &nbsp; | &nbsp; &nbsp;
+        <br/>
         <img src={swapbutton} className="Swap-button" alt="swap-button" />
         &nbsp; &nbsp;
         <span>
