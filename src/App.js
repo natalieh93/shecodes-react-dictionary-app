@@ -13,7 +13,7 @@ export default function App() {
         <img src={logo} className="React-logo" alt="logo" />
         <span>
           <a
-            href="https://github.com/natalieh93/shecodes-react-weather-app"
+            href="https://github.com/natalieh93/shecodes-react-dictionary-app"
             target="_blank"
             rel="noopener noreferrer"
             className="github-link"
