@@ -1,12 +1,12 @@
 .Meaning {
-  background-color: #ffffff;
+  background-color: rgba(117, 109, 141, 0.253);
   box-shadow: 2px 4px 25px rgb(93 93 110 /10%);
   margin: 100px 0 -80px;
   padding: 20px 50px;
 }
 
 .Meaning h3 {
-  color: #2a2a2a93;
+  color: white;
   font-size: 20px;
   font-style: italic;
   font-weight: 500;
@@ -15,7 +15,7 @@
 }
 
 .Meaning .definition {
-  color: black;
+  color: white;
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
@@ -23,7 +23,7 @@
 }
 
 .Meaning .example {
-  color: black;
+  color: #ffffffaf;
   font-style: italic;
   font-weight: 400;
   margin: 20px 0 30px;

@@ -1,5 +1,5 @@
 h1 {
-  color: #2a2a2a93;
+  color: white;
   font-size: 50px;
   font-weight: 600;
   letter-spacing: 0px;
@@ -8,7 +8,7 @@ h1 {
 }
 
 h6 {
-  color: black;
+  color: white;
   font-size: 16px;
   font-weight: 300;
   text-align: center;
@@ -22,7 +22,7 @@ h6 {
 .Dictionary .form-control {
   border: 1px solid rgb(144, 144, 144);
   border-radius: 0;
-  box-shadow: 3px 7px 10px rgb(138, 138, 138);
+  box-shadow: 3px 7px 10px rgba(138, 138, 138, 0.479);
   font-size: 16px;
   font-weight: 300;
   line-height: 36px;

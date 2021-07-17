@@ -1,10 +1,11 @@
 .Photos img {
-  box-shadow: 3px 3px 10px rgb(90, 89, 89);
+  box-shadow: 3px 3px 10px rgba(44, 37, 63, 0.712);
   margin-top: 100px;
   margin-bottom: -80px;
 }
 
 .Photos {
+  margin-top: -12px;
   padding: 0px 70px;
 }
 

@@ -1,14 +1,16 @@
 .App {
+  background-color: rgba(57, 50, 75, 0.918);
   box-shadow: 3px 10px 20px 4px rgb(93, 93, 93);
   color: black;
   display: block;
   font-family: "Poppins", sans-serif;
   margin: 30px auto;
-  max-width: 1000px;
+  max-width: 1050px;
   padding: 55px 30px;
 }
 
 .App-footer {
+  color: white;
   font-size: 14px;
   font-weight: 200;
   margin: 120px 0 -20px;
@@ -41,7 +43,7 @@
 .linkedin-link,
 .github-link,
 .weather-app-link {
-  color: black;
+  color: white;
   font-weight: 300;
   text-decoration: none;
 }
@@ -49,7 +51,7 @@
 .linkedin-link:hover,
 .github-link:hover,
 .weather-app-link:hover {
-  color: black;
+  color: white;
 }
 
 @media (max-width: 800px) {
