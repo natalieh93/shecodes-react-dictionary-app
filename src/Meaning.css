@@ -1,5 +1,6 @@
 .Meaning {
-  background-color: rgba(117, 109, 141, 0.253);
+  background-color: #435174;
+
   box-shadow: 2px 4px 25px rgb(93 93 110 /10%);
   margin: 100px 0 -80px;
   padding: 20px 50px;
@@ -23,7 +24,7 @@
 }
 
 .Meaning .example {
-  color: #ffffffaf;
+  color: #ffffff;
   font-style: italic;
   font-weight: 400;
   margin: 20px 0 30px;
